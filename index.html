@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      body {
+        background-color: #e5e5e5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div
+        class="max-w-[1000px] m-auto flex items-center justify-between bg-white mt-[50px] rounded-[26px] h-[88px] px-[20px] py-[10px]"
+      >
+        <h1 class="text-[30px]">LOGO</h1>
+
+        <nav
+          class="hidden sm:text-red-500 md:text-blue-500 md:flex flex gap-[30px] bg-[#E5E5E5] py-[16px] px-[22px] rounded-[16px]"
+        >
+          <p
+            class="hover:bg-black hover:text-white hover:rounded-[16px] hover:p-[3px] transition-all duration-500"
+          >
+            Контакты
+          </p>
+          <p
+            class="hover:bg-black hover:text-white hover:rounded-[16px] hover:p-[3px] transition-all duration-500"
+          >
+            О нас
+          </p>
+          <p
+            class="hover:bg-black hover:text-white hover:rounded-[16px] hover:p-[3px] transition-all duration-500"
+          >
+            Попробовать
+          </p>
+        </nav>
+
+        <div class="flex">
+          <button class="w-[82px] h-[41px] rounded-[16px] bg-white border-1">
+            Вход
+          </button>
+          <button
+            class="w-[187px] h-[41px] rounded-[16px] bg-[#111827] border-1 text-white"
+          >
+            Зарегистрироваться
+          </button>
+        </div>
+      </div>
+    </header>
+    <!--  -->
+    <section class="w-full">
+      <div class="max-w-[1200px] flex flex-col mt-[40px] ml-[24px]">
+        <p class="text-[15px] font-medium text-[#5267FF] mb-[12px]">СТАТЬИ И КАТЕГОРИИ</p>
+        <h2 class="text-[34px] text-[#111827] font-bold">Свежие материалы</h2>
+        <p class="text-[18px] text-[#667085]">
+          Мобильная версия карточек: категории <br> сверху, статьи ниже в одну чистую колонку.
+        </p>
+        <button class="w-[112px] h-[42px] bg-black text-white rounded-[14px] text-[14px] mb-[22px] mt-[8px] ">Все статьи</button>
+        <p class="text-[#111827] w-[79px] h-[19px] font-medium mb-[15px]">Категории</p>
+        <div>
+            <button class="py-[10px] px-[15px] bg-black text-white rounded-[999px]"> Все </button>
+            <button class="py-[10px] px-[15px] bg-white text-black rounded-[999px] border-[#475467] border-[1px]"> Python </button>
+            <button class="py-[10px] px-[15px] bg-white text-black rounded-[999px] border-[#475467] border-[1px]"> Django </button>
+            <button class="py-[10px] px-[15px] bg-white text-black rounded-[999px] border-[#475467] border-[1px]"> Frontend </button>
+        </div>
+    </div>
+    </section>
+    <section class="w-[322px] h-[164px]">
+      <div class="mt-[30px] ml-[34px]">
+        <img class="" src="./image.png" alt="">
+        <div class="flex justify-between pt-[14px]">
+          <button class="bg-[#F6F8FB] w-[63px] h-[30px] rounded-[999px] border-[2px] border-[#EDF1F6] text-[#475467]">Django</button>
+          <button class="bg-[#F6F8FB] w-[53px] h-[30px] rounded-[999px] border-[2px] border-[#EDF1F6] text-[#475467]">• 128</button>
+        </div>
+        <div class="mt-[14px]">
+          <h1 class="font-bold text-xl-[#111827]">Как правильно строить Django-проект</h1>
+          <p class="text-[#667085] text-[14px] mt-[14px]">Структура приложения, модели, slug-поля и архитектура для роста проекта.</p>
+        </div>
+        <div class="mt-[16px] flex justify-between">
+          <p class="text-[#98A2B3] text-[11px]">/articles/Django</p>
+          <h2 class="font-semibold text-[14px] text-[#111827]">Читать -></h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
